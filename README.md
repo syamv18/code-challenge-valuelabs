@@ -58,7 +58,12 @@ commit the code as `task-3`<br>
 
 Assignment: Introduce `redux-toolkit` and store the list of pokémon in the redux store.<br>
 Question 4: What makes the `createSlice` in redux-toolkit difference then A Reducer in redux?<br>
+
+    By centralizing actions, reducers, and action creators, createSlice streamlines Redux. In contrast to standard reducers that need more boilerplate and manual updates, it employs Immer for immutability, allowing you to create "mutating" code.
+
 Question 5: Describe the benefits of immutable code.<br>
+
+    By preventing unwanted data changes, immutable code facilitates debugging, allows time-travel debugging, and enhances performance by optimizing state comparison for re-renders.
 
 commit the code as `task-4`<br>
 
