@@ -77,8 +77,27 @@ Question 6: How can you verify the action has been dispatched?
 ## Task 6:
 
 Question 7: explain the use of `useEffect` hook in React
+
+    Side effects are implemented in functional components using the useEffect hook. It can be used for things like data retrieval, DOM updates, and event subscription. It executes after the component renders.
+
 Question 8: What is A High Order Component?
+
+    A function that takes a component and returns a new component with extra properties or behavior is known as a Higher Order Component (HOC).
+
 Question 9: What use cases would a HOC be usefull?
+
+    HOCs are excellent for reusing functionality, handling authentication, injecting props, managing state, and enabling conditional rendering across several components.
+
 Question 10: What does it indicate when a component is prefixed with `use` and `with`
+
+    Use a prefix to indicate that the component or function is a custom hook in React. Custom hooks let you reuse logic across many components.
+
 Question 11: What is a Generic type in typescript?
+
+    A Generic type in TypeScript enables you to write reusable components or functions that work with any type, maintaining type safety without defining the precise type.
+
 Question 12: Whats the difference between a controlled and uncontrolled input in React?
+
+    Controlled Input: The component's state determines the value of the input field (value prop).
+
+    Uncontrolled Input: The input value is managed by the DOM, and you access it via a reference.
