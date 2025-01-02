@@ -1,0 +1,41 @@
+.pokemon-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.no-data {
+  color: red;
+  font-style: italic;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.grid-item.name {
+  grid-column: span 6;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.grid-item.url {
+  grid-column: span 6;
+  color: #007bff;
+  font-size: 1rem;
+  text-decoration: none;
+}

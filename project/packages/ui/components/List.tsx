@@ -47,7 +47,7 @@ export const List = ({ api }: MyProps) => {
 
   return (
     <div>
-      <ul>
+      <ul className="pokemon-card">
         {pokemonList.map((pokemon: any) => (
           <PokemonNames key={pokemon.id} pokemon={pokemon} />
         ))}
