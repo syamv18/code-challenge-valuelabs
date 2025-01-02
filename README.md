@@ -72,6 +72,8 @@ commit the code as `task-4`<br>
 Assignment: Create button for each pokémon where an Action will be dispatched to remove the pokémon from the store
 Question 6: How can you verify the action has been dispatched?
 
+    Throughout development, I usually utilize the Redux DevTools plugin to confirm that an action has been dispatched in Redux. I can view every action that has been sent, along with its payload and the way the state is affected by it. I might provide a middleware that records activities as they go through the store if I need to programmatically check in code.
+
 ## Task 6:
 
 Question 7: explain the use of `useEffect` hook in React

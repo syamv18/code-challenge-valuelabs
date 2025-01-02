@@ -21,12 +21,13 @@ const PokemonList = () => {
   if (error) {
     return <p>Error: {error}</p>;
   }
+  console.log(pokemonList);
 
   return (
     <div className="app">
       <div className="pokemon-list">
-        {pokemonList.map((pokemon: Pokemon, index: number) => (
-          <PokemonCard key={`${index}_${pokemon.name}`} pokemon={pokemon} />
+        {pokemonList.map((pokemon: Pokemon) => (
+          <PokemonCard key={pokemon.id} pokemon={pokemon} />
         ))}
       </div>
     </div>
